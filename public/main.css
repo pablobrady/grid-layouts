@@ -1,0 +1,37 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body { 
+  margin: 0;
+  font: 62.5%/1.5  Tahoma, Verdana, sans-serif; 
+}
+.mud { background-color: #aba198; }
+.rain { background-color: #b0c6d1; }
+.desert { background-color: #e8dbce; }
+.warmGrey { background-color: #e8dbce; }
+.mocha { background-color: #4c4239; }
+
+.white { background-color: white; }
+.green {background-color: lightgreen;}
+.yellow {background-color: lightyellow;}
+.purple {background-color: magenta;}
+.blue {background-color: lightblue;}
+.coral {background-color: coral;}
+.purple {background-color: lightslategray;}
+.pink {background-color: pink;}
+
+.mocha-text { color: #4c4239; }
+
+.section {
+  padding: 30px;
+}
+
+.section-centered {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+  white-space: nowrap;
+}

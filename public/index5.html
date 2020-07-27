@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ten-modern-layouts</title>
+  <link rel="stylesheet" href="main.css">
+
+  <style>
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+header {
+  background: lightpink;
+  padding: 2rem;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar {
+  background: lightblue;
+  grid-column: 1 / 2;
+}
+
+main {
+  background: coral;
+  grid-column: 2 / 3;
+}
+
+.right-sidebar {
+  background: yellow;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+    </style>
+
+</head>
+<body>
+
+  <header><h1 contenteditable>Header.com</h1></header>
+  <div class="left-sidebar" contenteditable>Left Sidebar</div>
+  <main class="p-3 section">
+    <p>Captain Solo, this time you have gone too far. No, I will not be quiet, Chewbacca. Why doesn't anyone listen to me? The fleet is beginning to break up. Go back and stand by the manual release for the landing claw. I really don't see how thats going to help. Surrender is a perfectly acceptable alternative in extreme circumstances. The Empire may be gracious enough... Thank you.
+    <p>They're moving to attack position. Shields up! Track them. They may come around for another pass. Captain Needa, the ship no longer appears on our scopes. hey can't have disappeared. No ship that small has a cloaking device. Well, there's no trace of them, sir. Captain, Lord Vader demands an update on the pursuit. Get a shuttle ready. I shall assume full responsibility for losing them, and apologize to Lord Vader. Meanwhile, continue to scan the area. Yes, Captain Needa.
+    <p>Noisy brute. Why don't we just go into light-speed? We can't? How would you know the hyperdrive is deactivated? The city's central computer told you? Artoo-Detoo, you know better than to trust a strange computer. Ouch! Pay attention to what you're doing!
+    <p>If only you had attached my legs, I wouldn't be in this ridiculous position. Now, remember, Chewbacca, you have a responsibility to me, so don't do anything foolish. What's going on...buddy? You're being put into carbon freeze. What if he doesn't survive? He's worth a lot to me. The Empire will compensate you if he dies. Put him in! Oh, no! No, no, no! Stop, Chewbacca, stop...! Stop, Chewie, stop! Do you hear me? Stop! Yes, stop, please! I'm not ready to die. Chewie! Chewie, this won't help me. Hey! Save your strength. There'll be another time. The princess - you have to take care of her. You hear me? I love you! I know.
+    <p>Hello, sir. I am See-Threepio, human-cyborg relations. My facilities are at your... Well, really! What's wrong with the Falcon? Hyperdrive. I'll get my people to work on it. Good. You know, that ship saved my life quite a few times. She's the fastest hunk of junk in the galaxy. How's the gas mine? Is it paying off for you? Oh, not as well as I'd like. We're a small outpost and not very self-sufficient. And I've had supply problems of every kind. I've had labor difficulties... What's so funny? You. Listen to you - you sound like a businessman, a responsible leader. Who'd have thought that, huh? You know, seeing you sure brings back a few things. Yeah. Yeah, I'm responsible these days. It's the price you pay for being successful.    
+  </main>
+  <div class="right-sidebar" contenteditable>Right Sidebar</div>
+  <footer contenteditable>Footer Content — Copyright</footer>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ten-modern-layouts</title>
+  <link rel="stylesheet" href="main.css">
+
+<style>
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+header {
+  background: lightpink;
+  padding: 1rem 2rem;
+  grid-column: 1 / 4;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.span-12 {
+  grid-columns: 1 / span 12;
+}
+.span-6 {
+  grid-columns: 1 / span 6;
+}
+.span-4 {
+  grid-columns: 2 / span 4;
+}
+.span-2 {
+  grid-columns: 3 / span 2;
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <header><h1 contenteditable>Header.com</h1></header>  
+  <div class="parent purple">
+    <div class="span-12 green section-centered">Span 12</div>
+    <div class="span-6 coral section-centered">Span 6</div>
+    <div class="span-4 blue section-centered">Span 4</div>
+    <div class="span-2 yellow section-centered">Span 2</div>
+  </div>
+
+</body>
+</html>

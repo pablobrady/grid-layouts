@@ -1,0 +1,13 @@
+{
+  "name": "twn-modern-layouts",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=qm0IfG1GyZU&t=126s",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
