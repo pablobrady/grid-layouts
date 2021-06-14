@@ -4,7 +4,7 @@ A selection of CSS Grid page layouts.
 
 
 
-[demo](https://pablobrady.github.io/public/grid-layouts)
+[demo](https://pablobrady.github.io/grid-layouts/public/index.html)
 
 <br>
 ##### Also see:
