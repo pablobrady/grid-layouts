@@ -1,6 +1,6 @@
 # Modern Grid Layouts
 
-A selection of CSS Grid page layouts.
+A selection of common CSS Grid page layouts.
 
 
 
