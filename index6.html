@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layouts</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200..900;1,200..900" rel="stylesheet">
+<style>
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+header {
+  background: lightpink;
+  padding: 1rem 2rem;
+  grid-column: 1 / 4;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.span-12 {
+  grid-columns: 1 / span 12;
+}
+.span-6 {
+  grid-columns: 1 / span 6;
+}
+.span-4 {
+  grid-columns: 2 / span 4;
+}
+.span-2 {
+  grid-columns: 3 / span 2;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1 contenteditable>Header.com</h1>
+</header>
+<div class="parent purple">
+  <div class="span-12 green section-centered">Span 12</div>
+  <div class="span-6 coral section-centered">Span 6</div>
+  <div class="span-4 blue section-centered">Span 4</div>
+  <div class="span-2 yellow section-centered">Span 2</div>
+</div>
+
+
+<!-- Site Footer -->
+<div class="siteFooter">
+  <div class="footerFlex">
+    <a href="index.html">&#x1F3E0;</a>
+    <a href="index1.html">1</a>
+    <a href="index2.html">2</a>
+    <a href="index3.html">3</a>
+    <a href="index4.html">4</a>
+    <a href="index5.html">5</a>
+    <a href="index6.html">6</a>
+    <a href="index7.html">7</a>
+    <a href="index8.html">8</a>
+    <a href="index9.html">9</a>
+    <a href="index10.html">10</a>
+    <a href="index11.html">11</a>
+  </div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11375458-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11375458-15');
+</script>
+
+</body>
+</html>

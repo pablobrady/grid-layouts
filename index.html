@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layouts</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200..900;1,200..900" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 2rem;
+    }
+    h1 {
+      font-variation-settings: "wdth" 700;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 1rem;
+    }
+    .grid a {
+      text-decoration: none;
+    }
+    .grid a > div {
+      padding: 1.5rem;
+      border-radius: 0.8rem;
+      text-align: center;
+      position: relative;
+      color: #4c4239;
+      background-color: #aba198;
+    }
+    .grid a > div > div.bgnum {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 0;
+      color: rgba(0,0,0,0.10) !important;
+      text-align: left;
+      font-size: 2.5rem;
+      line-height: 1;
+      height: auto;
+      font-style: italic;
+      /* transform: skewX(-12deg); */
+    }
+    .grid a:hover > div {
+      background-color: rgba(200,200,200,2);
+    }
+  </style>
+</head>
+<body class="desert">
+  <h1 class="mocha-text">Modern Grid Layouts</h1>
+  <div class="grid">
+    <a href="index1.html"><div><div class="bgnum">1</div>Horiz./Vert. Centered Text</div></a>
+    <a href="index2.html"><div><div class="bgnum">2</div>3 Horiz. Cards, Responisve</div></a>
+    <a href="index3.html"><div><div class="bgnum">3</div>Min/Max Col. + Flexible Content</div></a>
+    <a href="index4.html"><div><div class="bgnum">4</div>Simple<br>Heading / Body / Footer</div></a>
+    <a href="index5.html"><div><div class="bgnum">5</div>Fill Window<br>Heading / Body / Footer</div></a>
+    <a href="index6.html"><div><div class="bgnum">6</div>SAMPLE</div></a>
+    <a href="index7.html"><div><div class="bgnum">7</div>SAMPLE</div></a>
+    <a href="index8.html"><div><div class="bgnum">8</div>SAMPLE</div></a>
+    <a href="index9.html"><div><div class="bgnum">9</div>SAMPLE</div></a>
+    <a href="index10.html"><div><div class="bgnum">10</div>SAMPLE</div></a>
+    <a href="index11.html"><div><div class="bgnum">11</div>Equal height cols (old)</div></a>
+  </div>
+
+
+<!-- Site Footer -->
+<div class="siteFooter">
+  <div class="footerFlex">
+    <a href="index.html">&#x1F3E0;</a>
+    <a href="index1.html">1</a>
+    <a href="index2.html">2</a>
+    <a href="index3.html">3</a>
+    <a href="index4.html">4</a>
+    <a href="index5.html">5</a>
+    <a href="index6.html">6</a>
+    <a href="index7.html">7</a>
+    <a href="index8.html">8</a>
+    <a href="index9.html">9</a>
+    <a href="index10.html">10</a>
+    <a href="index11.html">11</a>
+  </div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11375458-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11375458-15');
+</script>
+
+</body>
+</html>
